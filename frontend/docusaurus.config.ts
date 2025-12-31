@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Physical AI & Humanoid Robotics',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hackathon-1-creating-book-using-spe-sage.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'your-org',
