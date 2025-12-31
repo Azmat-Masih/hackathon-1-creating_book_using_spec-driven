@@ -208,3 +208,12 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Recent Changes
+- 001-book-landing-page: Added JavaScript/TypeScript (for Docusaurus page components), Markdown (for content snippets if any) + Docusaurus (v2.x or v3.x, consistent with existing setup), React (for UI components), Node.js (for Docusaurus build)
+- 001-module4-frontend-visibility: Added JavaScript/TypeScript (for Docusaurus configuration), Markdown (for content) + Docusaurus (v2.x or v3.x, consistent with existing setup), Node.js (LTS version for Docusaurus build)
+- 005-vla-humanoid-robot: Added Python 3.10+ + ROS 2 Humble or Iron (`rclpy`), NVIDIA Isaac Sim and Isaac ROS, OpenAI Whisper (or equivalent speech recognition models), LLM frameworks (e.g., OpenAI GPT API or local LLM models)
+
+## Active Technologies
+- JavaScript/TypeScript (for Docusaurus page components), Markdown (for content snippets if any) + Docusaurus (v2.x or v3.x, consistent with existing setup), React (for UI components), Node.js (for Docusaurus build) (001-book-landing-page)
+- Filesystem (for `frontend/src/pages/index.tsx` or similar page file, and static assets) (001-book-landing-page)

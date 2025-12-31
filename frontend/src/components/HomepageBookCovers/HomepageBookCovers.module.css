@@ -1,0 +1,39 @@
+/* frontend/src/components/HomepageBookCovers/HomepageBookCovers.module.css */
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.features h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.features h3 {
+  color: var(--ifm-font-color-base);
+}
+
+.features p {
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .features h3 {
+  color: var(--ifm-color-primary-lightest);
+}
+
+html[data-theme='dark'] .features p {
+  color: var(--ifm-color-white);
+}
+
+/* Light mode adjustments */
+html[data-theme='light'] .features h3 {
+  color: var(--ifm-color-primary-darkest);
+}
+
+html[data-theme='light'] .features p {
+  color: var(--ifm-font-color-base);
+}

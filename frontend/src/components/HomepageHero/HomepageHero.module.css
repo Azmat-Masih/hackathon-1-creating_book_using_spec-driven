@@ -1,0 +1,45 @@
+/* frontend/src/components/HomepageHero/HomepageHero.module.css */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: var(--ifm-hero-text-color); /* Inherit text color for theme compatibility */
+}
+
+/* Specific text color adjustments for better readability in both modes */
+html[data-theme='light'] .hero__title,
+html[data-theme='light'] .hero__subtitle,
+html[data-theme='light'] .missionStatement {
+  color: var(--ifm-font-color-base-inverse); /* A contrasting color for light mode */
+}
+
+html[data-theme='dark'] .hero__title,
+html[data-theme='dark'] .hero__subtitle,
+html[data-theme='dark'] .missionStatement {
+  color: var(--ifm-font-color-base); /* A contrasting color for dark mode */
+}
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.missionStatement {
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}

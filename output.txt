@@ -1,0 +1,10 @@
+It appears the 'node_modules' directory cannot be removed due to a file lock or permissions issue, likely related to how Windows handles files accessed from WSL.
+
+Please perform the following steps manually:
+
+1.  **Stop all Docusaurus-related processes** (e.g., any running `npm start` or `npm run build` commands in any terminal).
+2.  **Navigate to the 'frontend' directory** in your Windows File Explorer (e.g., `D:\Work - Side\hackathons\hackathon_1\frontend`).
+3.  **Manually delete the 'node_modules' folder** within the 'frontend' directory. If you encounter permission errors, you may need to restart your computer or check for any background processes that might be locking the files.
+4.  Once 'node_modules' is deleted, **return to this terminal and type 'continue'** (or your next command) to proceed with the `npm install` and `npm run build` steps.
+
+I will wait for your confirmation to proceed after you have manually deleted the 'node_modules' folder.
